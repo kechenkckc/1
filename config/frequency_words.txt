@@ -153,25 +153,35 @@
 #                         数码与手机品牌
 # ═══════════════════════════════════════════════════════════════
 
-/小米|雷军|卢伟冰|林斌|Redmi|红米|澎湃OS|\bXiaomi\b/ => 小米
+# ── 华为 (已升级：包含Pura、Mate、孟晚舟、麒麟芯片) ──
+/华为|任正非|余承东|孟晚舟|何刚|Pura|Mate|鸿蒙|海思|麒麟|纯血鸿蒙|\bHUAWEI\b|\bHarmonyOS\b|\bKirin\b/ => 华为
 
-/vivo|iQOO|沈炜|胡柏山|OriginOS|蓝河操作系统/ => vivo
+# ── 苹果 (已升级：包含AI系统、费德里吉、最新产品线) ──
+/库克|蒂姆库克|费德里吉|杰夫·威廉姆斯|\bApple Intelligence\b|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bApple\b/ => 苹果
 
+# ── 小米系 ──
+/小米|雷军|卢伟冰|林斌|Redmi|红米|澎湃OS|金凡|\bXiaomi\b/ => 小米
+
+# ── 蓝绿大厂 (vivo / OPPO) ──
+/vivo|iQOO|沈炜|胡柏山|OriginOS|蓝河/ => vivo
 /OPPO|一加|OnePlus|陈明永|刘作虎|ColorOS/ => OPPO
 
+# ── 其他主流品牌 ──
 /荣耀|赵明|\bHONOR\b|\bMagicOS\b/ => 荣耀
-
 /三星|卢泰文|李在镕|\bSamsung\b|\bGalaxy\b/ => 三星
-
-/魅族|星纪魅族|黄章|无界|Flyme|\bMeizu\b/ => 魅族
-
-/红魔|努比亚|倪飞|\bNubia\b|\bRedMagic\b/ => 努比亚/红魔
-
+/魅族|星纪魅族|黄章|Flyme/ => 魅族
+/红魔|努比亚|倪飞|中兴/ => 努比亚/红魔
 /真我|徐起|\bRealme\b/ => 真我Realme
+/传音|竺兆江|\bTranssion\b/ => 传音(出海王)
 
+# ── 手机芯片双雄 ──
 /高通|骁龙|安蒙|\bQualcomm\b|\bSnapdragon\b/ => 高通骁龙
+/联发科|天玑|蔡明介|\bMediaTek\b|\bDimensity\b/ => 联发科天玑
 
-/联发科|天玑|蔡明介|\bMediaTek\b|\bDimensity\b/ => 联发科
+# ── 影像联名 (徕卡/蔡司/哈苏) ──
+/徕卡|Leica/ => 徕卡影像
+/蔡司|Zeiss/ => 蔡司影像
+/哈苏|Hasselblad/ => 哈苏影像
 
 # ── 硬核技术参数 ──
 /京东方|BOE|华星光电/ => 国产屏幕面板

@@ -29,7 +29,7 @@
 
 [GLOBAL_FILTER]
 # 过滤标题党
-震惊
+
 
 
 
@@ -167,7 +167,7 @@
 /OPPO|一加|OnePlus|陈明永|刘作虎|ColorOS/ => OPPO
 
 # ── 其他主流品牌 ──
-/荣耀|赵明|\bHONOR\b|\bMagicOS\b/ => 荣耀
+/(?<!王者)荣耀|赵明|\bHONOR\b|\bMagicOS\b/ => 荣耀
 /三星|卢泰文|李在镕|\bSamsung\b|\bGalaxy\b/ => 三星
 /魅族|星纪魅族|黄章|Flyme/ => 魅族
 /红魔|努比亚|倪飞|中兴/ => 努比亚/红魔
